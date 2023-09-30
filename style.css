@@ -4,7 +4,7 @@
 body {
     margin: 0 auto;
    font-family: "Poppins";
-    height: 100vh;
+    height: 90vh;
     max-width: 80%;
 
 }
@@ -36,7 +36,6 @@ ul {
 }
 
 footer {
-    height: 30vh;
     margin-left:400px;
 }
 
@@ -76,7 +75,6 @@ footer {
     border-radius: 100%; 
     max-width:120%; 
     height: 350px; 
-    transform: rotate(10deg);
 }
 
 
@@ -94,4 +92,5 @@ button{
 
 footer a {
     margin-right: 10px;
+    margin-bottom: 0px;
   }

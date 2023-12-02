@@ -4,32 +4,44 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="project.css">
-    <title>Projects - Your Name</title>
+    <title>My Projects</title>
+    <link rel="icon" type="png" sizes="32x32" href="e_logo.png" />
 </head>
 <body>
     <header>
-        <h1>Your Name</h1>
-        <nav>
+        <div class="name">Emmanuel Oyiti</div>
+        <div class="navigation">
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About Me</a></li>
-                <li><a href="skills.html">Skills</a></li>
-                <li><a href="contact.html">Contact</a></li>
+              <li><a href="index.html">About</a></li>
+              <li class="active">Projects</li>
+              <a href="skills.html">Skills</a>
+              <li><a href="contact.html">Contact</a></li>
             </ul>
-        </nav>
+          </div>
     </header>
 
     <main>
-        <section id="projects">
-            <h2>Projects</h2>
-            <div class="slider">
-                <img src="contactus.PNG" alt="Project 1">
-                <img src="Dlog.PNG" alt="Project 2">
-                <img src="timeTable.PNG" alt="Project 3">
+        <div id="portifolio">
+            <div class="container">
+                <h1 class="sub-title">My Works</h1>
+                <div class="worklist">
+                    <div class="work"><img src="contactus.PNG" alt="Contact-Us">
+                        <div class="layer"><h3>Contact Us Page</h3>
+                            <p>This is the contact Us page of a movie website, where you can contact the site administrators for any info</p></div>
+                    </div>
+                    
+                    <div class="work"><img src="Dlog (1) (1).png" alt="Daily-Log">
+                        <div class="layer"><h3> Daily Log Page</h3>
+                            <p>This is a site where you can check how many times you logged and be able to keep track of your previous logs</p></div>
+                    </div>
+                    <div class="work"><img src="timeTable (2).png" alt="Time-Table">
+                        <div class="layer"><h3>Time-Table</h3>
+                            <p>This id a time table for students, containing their subjects and break time for the week</p></div>
+                    </div>
+                </div>
             </div>
-        </section>
-    </main>
-
-    <script src="project.js"></script>
+    
+        </div>
+      </main>   
 </body>
 </html>

@@ -124,13 +124,13 @@ footer a {
     }
 
     .navigation {
-        margin-top: 10px; /* Add space between the name and navigation on smaller screens */
+        margin-top: 10px;
     }
 
     main {
         height: 65vh;
         display: flex;
-        flex-direction: column; /* Change the flex direction to column */
+        flex-direction: column; 
         align-items: center; /* Center items horizontally */
         margin-bottom: 40px;
     }
@@ -144,7 +144,7 @@ footer a {
     
     .personal {
         width: 100%;
-        margin-top: 2em; /* Add margin at the top */
+        margin-top: 2em; 
         margin-right: 150px;
     }
 

@@ -1,4 +1,4 @@
-header {
+/* header {
     height: 10vh;
     padding: 10px;
     margin: 5px 5px;
@@ -49,10 +49,69 @@ a:hover {
 
 .navigation li.active {
     text-decoration: underline;
+} */
+
+header {
+    height: 10vh;
+    padding: 10px;
+    margin: 5px 5px;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    position: sticky;
+    top: 10px;
+    background-color: white;
+}
+
+.header-class {
+    display: flex;
+    align-items: center;
+    position: sticky;
+  }
+
+  .name {
+    width: 60%;
+    padding: 20px;
+    margin: auto 0;
+    font-size: 1em;
+}
+
+a {
+    text-decoration: none;
+    color: black; 
+    text-decoration-color: #000;
+}
+
+a:hover {
+    color: lightblue; 
+    text-decoration: underline;
+}
+
+.navigation ul {
+    list-style: none;
+    display: flex;
+    padding-right: 50px;
+  }
+  
+  .navigation li {
+    margin: 0px 10px;
+    cursor: pointer;
+  }
+  
+  .navigation li.active {
+    text-decoration: underline;
+}  
+    
+ul {
+    list-style: none;
+    display: flex;
 }
 
 body {
-    margin: 0;
+    margin: 0 auto;
+    font-family: "Poppins";
+     height: 90vh;
+     max-width: 80%;
 }
 
 .sub-title{

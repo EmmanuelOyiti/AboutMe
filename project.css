@@ -7,6 +7,7 @@ header {
     align-items: center; 
     position: sticky;
     top: 10px;
+    background-color: white;
 }
 
 .header-class {
@@ -17,14 +18,9 @@ header {
 
   .name {
     width: 60%;
-    padding: 1px;
-    margin-left: 65px;
+    padding: 20px;
+    margin: auto 0;
     font-size: 1em;
-}
-
-ul {
-    list-style: none;
-    display: flex;
 }
 
 a {
@@ -38,24 +34,31 @@ a:hover {
     text-decoration: underline;
 }
 
-
 .navigation ul {
     list-style: none;
     display: flex;
     padding-right: 50px;
-}
-
-.navigation li {
-    margin: 0 10px;
+  }
+  
+  .navigation li {
+    margin: 0px 10px;
     cursor: pointer;
-}
-
-.navigation li.active {
+  }
+  
+  .navigation li.active {
     text-decoration: underline;
+}  
+    
+ul {
+    list-style: none;
+    display: flex;
 }
 
 body {
-    margin: 0;
+    margin: 0 auto;
+   font-family: "Poppins";
+    height: 90vh;
+    max-width: 80%;
 }
 
 .sub-title{

@@ -7,6 +7,7 @@ header {
     align-items: center; 
     position: sticky;
     top: 10px;
+    background-color: white;
 }
 
 .header-class {
@@ -17,14 +18,9 @@ header {
 
   .name {
     width: 60%;
-    padding: 1px;
-    margin-left: 65px;
+    padding: 20px;
+    margin: auto 0;
     font-size: 1em;
-}
-
-ul {
-    list-style: none;
-    display: flex;
 }
 
 a {
@@ -34,37 +30,42 @@ a {
 }
 
 a:hover {
-    color: white; 
+    color: lightblue; 
     text-decoration: underline;
 }
-
 
 .navigation ul {
     list-style: none;
     display: flex;
     padding-right: 50px;
-}
-
-.navigation li {
-    margin: 0 10px;
+  }
+  
+  .navigation li {
+    margin: 0px 10px;
     cursor: pointer;
-}
-
-.navigation li.active {
+  }
+  
+  .navigation li.active {
     text-decoration: underline;
+}  
+    
+ul {
+    list-style: none;
+    display: flex;
 }
-
 
 body {
-    margin: 0;
-    padding: 0;
+    margin: 0 auto;
+    font-family: "Poppins";
+    height: 90vh;
+    max-width: 80%;
     color: black;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: left;
     align-items: left;
     font-family: Arial, sans-serif;
-    background-color: lightblue;
+    background-color: white;
 }
 
 main {
@@ -88,7 +89,8 @@ main {
     background-color: white;
     padding: 20px;
     border-radius: 5px;
-    margin-left: 150px;
+    margin-left: 20px;
+    color: #000;
     /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); */
     width: 100%;
     box-sizing: border-box;

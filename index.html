@@ -5,21 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>About Emmanuel Oyiti</title>
     <link rel="icon" type="png" sizes="32x32" href="e_logo.png" />
+    <script src="https://kit.fontawesome.com/d674ef2317.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css" />
   </head>
 
   <body>
     <div>
       <header class="header class">
-        <div class="name">Emmanuel Oyiti</div>
-        <div class="navigation">
-          <ul>
+        <div class="name"><a href="index.html">Emmanuel Oyiti</a></div>
+        <nav class="navigation">
+          <ul id="sidemenu">
             <li class="active">About</li>
             <li><a href="projects.html">Projects</a></li>
-            <a href="skills.html">Skills</a>
+            <li><a href="skills.html">Skills</a></li>
             <li><a href="contact.html">Contact</a></li>
+            <i class="fas fa-times" onclick="closemenu()"></i>
           </ul>
-        </div>
+          <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
       </header>
     </div>
 

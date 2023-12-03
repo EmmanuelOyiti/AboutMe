@@ -42,4 +42,4 @@ The project includes a responsive design for smaller screens. Special attention 
 Contact
 Email: emmanueloyiti2@gmail.com
 LinkedIn: https://www.linkedin.com/in/emmanuel-oyiti-mensah-a889a81b9/
-Twitter: Mister_Eminent
+Twitter: @Mister_Eminent

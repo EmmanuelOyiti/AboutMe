@@ -108,6 +108,7 @@ a:hover {
     justify-content: center;
     align-items: center;
     margin-right: 450px;
+    margin-top: 45px;
 }
 
 footer a {
@@ -131,7 +132,7 @@ footer a {
         height: 65vh;
         display: flex;
         flex-direction: column; 
-        align-items: center; /* Center items horizontally */
+        align-items: center;
         margin-bottom: 40px;
     }
     

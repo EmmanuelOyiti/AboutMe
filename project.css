@@ -35,6 +35,7 @@ a {
 
 a:hover {
     color: lightblue; 
+    text-decoration: underline;
 }
 
 
@@ -116,3 +117,16 @@ body {
 .work:hover .layer{
     height: 80%;
 }
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+footer a {
+    margin-right: 10px;
+    margin-bottom: 0px;
+    margin-top: 80px;
+  }

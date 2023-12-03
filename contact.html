@@ -24,12 +24,18 @@
     <main>
         <div class="contact-form">
           <h2>Contact Us</h2>
-          <form id="contactForm">
+          <form name="submit-to-google-sheet"
+           id="contactForm"
+          >
             <div class="ask-user">
               <p>
                 -Have a question for us? Please complete this form and we will get
                 in touch as soon as possible
               </p>
+            </div>
+            <div class="form-group">
+              <label for="name">Your name:</label>
+              <input type="text" name="name" required />
             </div>
             <div class="form-group">
               <label for="email">Your email:</label>
@@ -51,6 +57,7 @@
             </div>
             <button type="submit">Submit</button>
           </form>
+          <span id="msg"></span>
         </div>
       </main>
     <script src="ContactScript.js"></script>

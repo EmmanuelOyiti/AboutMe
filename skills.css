@@ -35,6 +35,7 @@ a {
 
 a:hover {
     color: lightblue; 
+    text-decoration: underline;
 }
 
 
@@ -106,6 +107,8 @@ margin-bottom: 15px;
 }
 .footer{
     display: flex;
+    justify-content: center;
+    align-items: center; 
 }
 
 footer a {
@@ -113,15 +116,5 @@ footer a {
     margin-bottom: 0px;
     margin-top: 80px;
   }
-/*
-#skills{
-    padding: 30px 100px; 
-   }
- 
-   .skills-list{
-     display: grid;
-     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-     gap: 40px;
-     margin-top: 50px;
-   } */
+
    

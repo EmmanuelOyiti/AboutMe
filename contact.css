@@ -35,6 +35,7 @@ a {
 
 a:hover {
     color: white; 
+    text-decoration: underline;
 }
 
 
@@ -104,6 +105,7 @@ label {
 
 input[type="subject"],
 input[type="email"],
+input[type="text"],
 textarea {
     width: 100%;
     padding: 5px;
@@ -112,7 +114,7 @@ textarea {
 }
 
 button {
-    background-color:lightblue;
+    background-color:rgb(51, 125, 150);
     color: white;
     padding: 5px 10px;
     border: none;
@@ -120,4 +122,10 @@ button {
     cursor: pointer;
     font-size: 18px;
     font-weight: bold;
+}
+
+#msg{
+    color: #61b752;
+    margin-top: 10px;
+    display: block;
 }

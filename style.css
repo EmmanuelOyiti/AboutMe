@@ -85,7 +85,7 @@ a:hover {
 
 .personal {
     width: 50%; 
-    margin-left: em; 
+    margin-left: 2em; 
     padding-left: 250px;
 }
 .personal img {
@@ -116,3 +116,40 @@ footer a {
     margin-top: 80px;
   }
 
+  @media screen and (max-width: 600px) {
+    .name {
+        width: 100%;
+        text-align: center; 
+        margin-top: 19px;
+    }
+
+    .navigation {
+        margin-top: 10px; /* Add space between the name and navigation on smaller screens */
+    }
+
+    main {
+        height: 65vh;
+        display: flex;
+        flex-direction: column; /* Change the flex direction to column */
+        align-items: center; /* Center items horizontally */
+        margin-bottom: 40px;
+    }
+    
+    .content {
+        width: 100%; 
+        margin-left: 0;
+        font-size: 15px;
+        max-width: 800px; /* Add max-width for better readability on larger screens */
+    }
+    
+    .personal {
+        width: 100%;
+        margin-top: 2em; /* Add margin at the top */
+        margin-right: 150px;
+    }
+
+    .footer {
+        margin-left: 220px;
+        margin-top: 650px; 
+        padding-left: 5px;
+    }}

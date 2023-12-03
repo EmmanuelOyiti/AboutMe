@@ -57,7 +57,6 @@ ul {
 body {
     margin: 0 auto;
     font-family: "Poppins";
-    height: 90vh;
     max-width: 80%;
     color: black;
     display: flex;
@@ -131,3 +130,102 @@ button {
     margin-top: 10px;
     display: block;
 }
+
+  .navigation .fas {
+    display: none;
+  }
+
+  @media screen and (max-width: 600px) {
+    
+    .header-text
+    body{
+        width: 100%;
+    }
+
+    .name {
+        width: 50%;
+        text-align: center; 
+        margin-top: 20px;
+    }
+
+    .navigation ul{
+        background-color:rgb(51, 125, 150);
+        position:fixed;
+        top: 0;
+        right: -300px;
+        width: 200px;        
+        flex-direction: column;
+        color: white;
+        z-index: 2;
+        border-radius: 10px 0px;
+        transition: right 0.5s;
+    }
+
+    .navigation .fas {
+        display: block;
+        font-size: 25px;
+        margin-top: 25px;
+       margin-left: 55px;
+        
+      }    
+
+    .navigation ul .fas {
+        position: absolute;
+        top: 0px;
+        /* left: 90px; */
+        right: 55px;
+       
+        cursor: pointer;
+    }
+
+    .navigation ul li{
+        margin: 15px;
+    }
+
+    .navigation ul li a{
+        color: white;
+    }
+
+
+    .navigation {
+        margin-top: 10px;
+        display: flex;
+        flex: 1 1 0;
+    }
+
+    main {
+        height: 65vh;
+        flex-basis: 100%;
+        flex-direction: column; 
+        align-items: center;
+        margin-bottom: 40px;
+    }
+    
+    .content {
+        width: 100%; 
+        text-justify: center;
+        text-align: justify;
+        margin-left: 0;
+        font-size: 15px;
+        flex: 1 1 100%;
+        max-width: 800px; 
+    }
+
+    .content a{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+    }
+    
+    .personal {
+        width: 100%;
+        margin-top: 2em;
+        margin-right: 280px;
+        flex: 1 1 100%;
+    }
+
+    .footer {
+        margin-left: 0px;
+        margin-top: 1500px; 
+        padding-left: 5px;
+    }}

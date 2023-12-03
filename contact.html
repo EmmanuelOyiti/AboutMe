@@ -10,17 +10,21 @@
     <link rel="icon" type="png" sizes="32x32" href="e_logo.png" />
 </head>
 <body>
-    <header>
-        <div class="name"><a href="index.html">Emmanuel Oyiti</a></div>
-        <div class="navigation">
-            <ul>
-              <li><a href="index.html">About</a></li>
-              <li><a href="projects.html">Projects</a></li>
-              <li> <a href="skills.html">Skills</a></li>
-              <li class="active"><a href="contact.html">Contact</a></li>
-            </ul>
-          </div>
+  <div>
+    <header class="header class">
+      <div class="name"><a href="index.html">Emmanuel Oyiti</a></div>
+      <nav class="navigation">
+        <ul id="sidemenu">
+          <li><a href="index.html">About</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="skills.html">Skills</a></li>
+          <li class="active"><a href="contact.html">Contact</a></li>
+          <i class="fas fa-times" onclick="closemenu()"></i>
+        </ul>
+        <i class="fas fa-bars" onclick="openmenu()"></i>
+      </nav>
     </header>
+  </div>
 
     <main>
         <div class="contact-form">

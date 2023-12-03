@@ -133,29 +133,32 @@ footer a {
     }
 
     .navigation ul{
-        background-color: #ff004f;
+        background-color: lightblue;
         position: fixed;
         top: 0;
         right: -300px;
         width: 200px;
         height: 100vh;
-        padding-top: 50px;        
+        padding-top: 70px;        
         flex-direction: column;
         color: white;
         z-index: 2;
+        transition: right 0.5s;
     }
 
     .navigation .fas {
         display: block;
         font-size: 25px;
-       margin-left: 90px;
+        margin-top: 25px;
+       margin-left: 55px;
         
       }    
 
     .navigation ul .fas {
         position: absolute;
         top: 25px;
-        left: 25px;
+        left: 0px;
+       
         cursor: pointer;
     }
 
@@ -176,8 +179,7 @@ footer a {
 
     main {
         height: 65vh;
-        margin-right: 0px;
-        margin-left: 0px;
+        flex-basis: 100%;
         flex-direction: column; 
         align-items: center;
         margin-bottom: 40px;
@@ -186,18 +188,24 @@ footer a {
     .content {
         width: 100%; 
         text-justify: center;
-        text-align: left;
-        /* margin-left: 150px; */
+        text-align: justify;
+        margin-left: 0;
         font-size: 15px;
-        flex: 1 1 50%;
-        max-width: 800px; /* Add max-width for better readability on larger screens */
+        flex: 1 1 100%;
+        max-width: 800px; 
+    }
+
+    .content a{
+        display: flex;
+        justify-content: center;
+        align-content: center;
     }
     
     .personal {
         width: 100%;
         margin-top: 2em;
-        margin-right: 250px;
-        flex: 1 1 50%;
+        margin-right: 280px;
+        flex: 1 1 100%;
     }
 
     .footer {

@@ -272,6 +272,7 @@ footer a {
 
     .footer {
         margin-left: 0px;
-        margin-top: 1500px; 
+        margin-top: 1600px !important; 
+        margin-bottom: 600px !important; 
         padding-left: 5px;
     }}

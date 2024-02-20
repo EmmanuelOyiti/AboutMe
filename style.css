@@ -206,6 +206,6 @@ footer a {
 
     .footer {
         margin-left: 150px;
-        margin-top: 650px; 
+        margin-top: 650px !important; 
         padding-left: 5px;
     }}
